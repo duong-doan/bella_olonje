@@ -1,0 +1,26 @@
+body.dark {
+	$bg-color: rgba(0, 0, 0, 0.8);
+	$text-color: white;
+	$text-color2: rgb(224, 219, 219);
+	$shadow-color: #e6e4e4;
+
+	background-color: $bg-color;
+
+	.header__navbar-item,
+	.title-mid,
+	.section__title-second,
+	.footer__detail {
+		color: $text-color;
+	}
+
+	.section__title-sub {
+		color: $text-color2;
+	}
+
+	.section__menu-content {
+		.section__title-second,
+		.section__title-sub {
+			color: $text-color;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+@import 'variables';
+
+footer {
+	width: 100%;
+	height: 133px;
+	margin: 37px auto 53px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.footer__logo {
+		img {
+			width: 246px;
+			height: 102px;
+			margin: 16px 0 15px 71px;
+		}
+	}
+
+	.footer__contact {
+		i {
+			font-size: 33px;
+			margin-right: 32px;
+			color: $primary-color;
+		}
+
+		i:hover {
+			cursor: pointer;
+			opacity: 0.6;
+			transition: linear 0.2s;
+		}
+
+		i:nth-of-type(3) {
+			margin-right: 75px;
+		}
+	}
+
+	.footer__detail {
+		width: 190px;
+		line-height: 18px;
+		font-size: 12px;
+		font-weight: 400;
+		margin: 64px 45px 51px 0;
+	}
+}

@@ -1,0 +1,96 @@
+@import "variables";
+
+section {
+    .section__login,
+    .section__menu,
+    .section__checkout {
+        width: 100%;
+        height: 656px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section__login,
+    .section__checkout {
+        img {
+            width: 302px;
+            height: 525px;
+            margin: 18px 0 0 80px;
+            box-shadow: 30px 30px 40px 10px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+
+    .section__login-content,
+    .section__checkout-content {
+        margin: 78px 58px 0 0;
+
+        .section__title-first {
+            width: 232px;
+            line-height: 36px;
+            margin: 0;
+            color: $primary-color;
+            font-size: 26px;
+        }
+
+        .section__title-second {
+            width: 561px;
+            line-height: 57px;
+            margin: 17px 0 27px;
+            color: $color-title-content;
+            font-size: 44px;
+        }
+
+        .section__title-sub {
+            width: 467px;
+            line-height: 38px;
+            font-size: 26px;
+            color: $text-color;
+            margin: 0;
+        }
+    }
+
+    .section__menu {
+        width: 100%;
+        height: 728px;
+
+        img {
+            width: 302px;
+            height: 525px;
+            margin: 0 80px 47px 0;
+            box-shadow: 30px 30px 40px 10px rgba($color: #000000, $alpha: 0.1);
+        }
+
+        .section__menu-content {
+            margin: 0 0 0 70px;
+
+            .section__title-first {
+                width: 232px;
+                line-height: 36px;
+                margin: 0;
+                color: $primary-color;
+                font-size: 26px;
+            }
+
+            .section__title-second {
+                width: 484px;
+                line-height: 57px;
+                margin: 17px 0 27px;
+                color: $color-title-content;
+                font-size: 42px;
+            }
+
+            .section__title-sub {
+                width: 462px;
+                line-height: 38px;
+                font-size: 26px;
+                color: $text-color;
+                margin: 0;
+            }
+        }
+    }
+
+    .section__checkout {
+        margin-bottom: 100px;
+    }
+}
