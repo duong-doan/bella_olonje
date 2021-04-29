@@ -164,7 +164,7 @@ footer .footer__detail {
   margin: 0 auto;
 }
 .banner__bot .banner__bot-title p {
-  width: 840px;
+  /* width: 840px; */
   line-height: 38px;
   font-size: 26px;
   margin: 0 auto 60px;
@@ -444,29 +444,29 @@ body.dark .section__menu-content .section__title-sub {
   }
 
   section .section__login,
-section .section__menu,
-section .section__checkout {
+  section .section__menu,
+  section .section__checkout {
     height: 400px;
     justify-content: center;
     align-items: center;
   }
   section .section__login img,
-section .section__menu img,
-section .section__checkout img {
+  section .section__menu img,
+  section .section__checkout img {
     display: none;
   }
   section .section__checkout {
     margin-bottom: 0;
   }
   section .section__login-content,
-section .section__checkout-content {
+  section .section__checkout-content {
     margin: 50px 0 !important;
     text-align: center;
   }
   section .section__login-content .section__title-first,
-section .section__login-content .section__title-sub,
-section .section__checkout-content .section__title-first,
-section .section__checkout-content .section__title-sub {
+  section .section__login-content .section__title-sub,
+  section .section__checkout-content .section__title-first,
+  section .section__checkout-content .section__title-sub {
     width: 561px;
     margin-right: 0 !important;
   }
@@ -476,8 +476,8 @@ section .section__checkout-content .section__title-sub {
     text-align: center;
   }
   section .section__menu-content .section__title-first,
-section .section__menu-content .section__title-second,
-section .section__menu-content .section__title-sub {
+  section .section__menu-content .section__title-second,
+  section .section__menu-content .section__title-sub {
     width: 561px !important;
     margin-right: 0 !important;
   }
@@ -539,29 +539,29 @@ section .section__menu-content .section__title-sub {
   }
 
   section .section__login,
-section .section__menu,
-section .section__checkout {
+  section .section__menu,
+  section .section__checkout {
     height: 400px;
     justify-content: center;
     align-items: center;
   }
   section .section__login img,
-section .section__menu img,
-section .section__checkout img {
+  section .section__menu img,
+  section .section__checkout img {
     display: none;
   }
   section .section__checkout {
     margin-bottom: 0;
   }
   section .section__login-content,
-section .section__checkout-content {
+  section .section__checkout-content {
     margin: 50px 0 !important;
     text-align: center;
   }
   section .section__login-content .section__title-first,
-section .section__login-content .section__title-sub,
-section .section__checkout-content .section__title-first,
-section .section__checkout-content .section__title-sub {
+  section .section__login-content .section__title-sub,
+  section .section__checkout-content .section__title-first,
+  section .section__checkout-content .section__title-sub {
     width: 561px;
     margin-right: 0 !important;
   }
@@ -571,8 +571,8 @@ section .section__checkout-content .section__title-sub {
     text-align: center;
   }
   section .section__menu-content .section__title-first,
-section .section__menu-content .section__title-second,
-section .section__menu-content .section__title-sub {
+  section .section__menu-content .section__title-second,
+  section .section__menu-content .section__title-sub {
     width: 561px !important;
     margin-right: 0 !important;
   }
